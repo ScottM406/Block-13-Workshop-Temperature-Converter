@@ -28,7 +28,7 @@ const describeTmperature = (fahrenheit) => {
 
 const message = describeTmperature(userTemperature);
 
-// Below: a function sends an alert based off of the number the user entered. It contains the description generated above.
+// Below: A function sends an alert based off of the number the user entered. It contains the description generated above.
 
 const createMessage = () => {
   alert(message)
