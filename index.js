@@ -21,7 +21,7 @@ const describeTmperature = (fahrenheit) => {
     return(`You entered ${fahrenheit} degrees Fahrenheit, that is ${celsiusTemp} degrees Celcius. That is warm!`);
   else if (Number(fahrenheit) <100 && Number(userTemperature) >= 86)
     return(`You entered ${fahrenheit} degrees Fahrenheit, that is ${celsiusTemp} degrees Celcius. That is hot!`);
-  else if (Number(f) >=100)
+  else if (Number(fahrenheit) >=100)
     return(`You entered ${fahrenheit} degrees Fahrenheit, that is ${celsiusTemp} degrees Celcius. That is very hot, wear sunscreen!`);
 
 }
